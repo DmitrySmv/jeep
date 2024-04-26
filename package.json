@@ -52,6 +52,7 @@
     "@oclif/plugin-plugins": "^5"
   },
   "devDependencies": {
+    "@auto-it/all-contributors": "^11.1.6",
     "@oclif/prettier-config": "^0.2.1",
     "@oclif/test": "^3",
     "@types/chai": "^4",
