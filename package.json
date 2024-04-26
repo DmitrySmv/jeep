@@ -28,7 +28,8 @@
     "postpack": "shx rm -f oclif.manifest.json",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "posttest": "npm run lint",
-    "version": "oclif readme && git add README.md"
+    "version": "oclif readme && git add README.md",
+    "release": "auto shipit"
   },
   "oclif": {
     "bin": "jeep",
@@ -56,6 +57,7 @@
     "@types/chai": "^4",
     "@types/mocha": "^10",
     "@types/node": "^18",
+    "auto": "^11.1.6",
     "chai": "^4",
     "eslint": "^8",
     "eslint-config-oclif": "^5",
@@ -69,5 +71,13 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "auto": {
+    "plugins": [
+      "npm",
+      "all-contributors",
+      "released"
+    ],
+    "onlyPublishWithReleaseLabel": true
   }
 }
