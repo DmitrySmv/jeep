@@ -20,7 +20,7 @@ $ npm install -g jeep
 $ jeep COMMAND
 running command...
 $ jeep (--version)
-jeep/0.0.0 darwin-arm64 node-v20.12.2
+jeep/0.0.1 darwin-arm64 node-v20.12.2
 $ jeep --help [COMMAND]
 USAGE
   $ jeep COMMAND
@@ -65,7 +65,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [src/commands/hello/index.ts](https://github.com/projects/jeep/blob/v0.0.0/src/commands/hello/index.ts)_
+_See code: [src/commands/hello/index.ts](https://github.com/projects/jeep/blob/v0.0.1/src/commands/hello/index.ts)_
 
 ## `jeep hello world`
 
@@ -83,7 +83,7 @@ EXAMPLES
   hello world! (./src/commands/hello/world.ts)
 ```
 
-_See code: [src/commands/hello/world.ts](https://github.com/projects/jeep/blob/v0.0.0/src/commands/hello/world.ts)_
+_See code: [src/commands/hello/world.ts](https://github.com/projects/jeep/blob/v0.0.1/src/commands/hello/world.ts)_
 
 ## `jeep help [COMMAND]`
 
@@ -126,7 +126,7 @@ EXAMPLES
   $ jeep plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.0.14/src/commands/plugins/index.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.0.15/src/commands/plugins/index.ts)_
 
 ## `jeep plugins add PLUGIN`
 
@@ -200,7 +200,7 @@ EXAMPLES
   $ jeep plugins inspect myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.0.14/src/commands/plugins/inspect.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.0.15/src/commands/plugins/inspect.ts)_
 
 ## `jeep plugins install PLUGIN`
 
@@ -249,7 +249,7 @@ EXAMPLES
     $ jeep plugins install someuser/someplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.0.14/src/commands/plugins/install.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.0.15/src/commands/plugins/install.ts)_
 
 ## `jeep plugins link PATH`
 
@@ -279,7 +279,7 @@ EXAMPLES
   $ jeep plugins link myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.0.14/src/commands/plugins/link.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.0.15/src/commands/plugins/link.ts)_
 
 ## `jeep plugins remove [PLUGIN]`
 
@@ -320,7 +320,7 @@ FLAGS
   --reinstall  Reinstall all plugins after uninstalling.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.0.14/src/commands/plugins/reset.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.0.15/src/commands/plugins/reset.ts)_
 
 ## `jeep plugins uninstall [PLUGIN]`
 
@@ -348,7 +348,7 @@ EXAMPLES
   $ jeep plugins uninstall myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.0.14/src/commands/plugins/uninstall.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.0.15/src/commands/plugins/uninstall.ts)_
 
 ## `jeep plugins unlink [PLUGIN]`
 
@@ -392,7 +392,7 @@ DESCRIPTION
   Update installed plugins.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.0.14/src/commands/plugins/update.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.0.15/src/commands/plugins/update.ts)_
 <!-- commandsstop -->
 
 ## Contributors ✨
